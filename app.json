@@ -1,14 +1,18 @@
 {
   "expo": {
-    "name": "StickerSmash",
+    "name": "Solve9",
     "slug": "StickerSmash",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/icon.png",
     "scheme": "stickersmash",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon",
+      "icon": {
+        "dark": "./assets/ios-dark.png",
+        "light": "./assets/ios-light.png",
+        "tinted": "./assets/ios-tinted.png"
+      },
       "bundleIdentifier": "com.ambraihawk97.StickerSmash",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
@@ -32,9 +36,9 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
+          "backgroundColor": "#F4F7FB",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200
         }
       ]
     ],
